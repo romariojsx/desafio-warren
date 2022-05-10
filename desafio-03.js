@@ -2,7 +2,8 @@ let n = 10;
 let v = [2, 3, 4];
 
 results = [];
-addAndVerify([], v); // realiza o teste
+// realiza o teste
+addAndVerify([], v); 
 
 function sum(nums) {
   return nums.reduce((prev, curr) => prev + curr, 0);
@@ -20,7 +21,8 @@ function addAndVerify(arr, nums) {
     if (sum(newArr) > n) {
       break;
     } else {
-      addAndVerify(newArr, v); // ele se chama novamente até testar todas as possibilidades
+      // ele se chama novamente até testar todas as possibilidades
+      addAndVerify(newArr, v); 
     }
   }
 }
