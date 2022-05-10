@@ -1,4 +1,4 @@
-function professorPuto() {
+function TeacherClass() {
   const tempo = [-1, -1, 1, 0];
 
   let x = 0;
@@ -15,4 +15,4 @@ function professorPuto() {
   }
 }
 
-professorPuto();
+TeacherClass();
